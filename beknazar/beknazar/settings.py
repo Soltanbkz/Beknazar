@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-qwx+yj=+dc-6fx+221u&t_8nsiz07s!tp$=7dpj_j3q2rdj5)o
 
 ALLOWED_HOSTS = ['soltanbekovbeknazar.kz', '185.129.49.70']
 
-DEBUG = False
+DEBUG = True
 
 
 # Application definition
@@ -122,7 +122,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'beknazar/main/static/'
 
 STATICFILES_DIRS = [
-    BASE_DIR / "/static/",
+    BASE_DIR / "/main/static/",
 ]
 
 STATICFILES_FINDERS = [
