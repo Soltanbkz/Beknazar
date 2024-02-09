@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-qwx+yj=+dc-6fx+221u&t_8nsiz07s!tp$=7dpj_j3q2rdj5)o
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['soltanbekovbeknazar.kz', 'www.soltanbekovbeknazar.kz', '185.129.49.70']
 
 DEBUG = True
 
@@ -83,6 +83,7 @@ DATABASES = {
     }
 }
 
+
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
@@ -118,10 +119,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/main/static/'
+STATIC_ROOT = BASE_DIR / 'beknazar/main/static/'
 
 STATICFILES_DIRS = [
-    BASE_DIR / "static/",
+    BASE_DIR / "/main/static/",
 ]
 
 STATICFILES_FINDERS = [
